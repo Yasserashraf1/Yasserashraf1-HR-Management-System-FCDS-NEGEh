@@ -29,12 +29,70 @@ This **HR Management System** combines manual employee record management with **
   * Decision Tree
   * Random Forest
 
-📊 Model Evaluation:
+* **📊 Model Evaluation:**
 
-Accuracy scores
+ * Accuracy scores
 
-Classification reports
+ * Classification reports
 
-Confusion Matrix (visualized)
+ * Confusion Matrix (visualized)
 
-ROC-AUC curves
+ * ROC-AUC curves
+
+* **🔮 Predict Employment Suitability:**
+
+ * Input candidate details (age, skills, salary, etc.)
+
+ * Get "Accepted" or "Rejected" prediction
+
+## 3️⃣ Data Management
+* **📂 SQLite Database:** Stores all employee records
+
+* **🔄 CSV Import:** Loads initial dataset (stackoverflow_full.csv)
+
+* **🧹 Automated Preprocessing:**
+
+ * Missing value handling
+
+ * Outlier removal (IQR method)
+
+ * Categorical encoding (Label Encoding)
+
+# 📊 Data Flow & AI Model Workflow
+1. **Data Loading** → Import from CSV into SQLite database
+2. **Preprocessing →**
+   * Handle missing values
+   * Encode categorical data
+   * Remove outliers
+3. **Model Training →**
+    * Split data (80% train, 20% test)
+    * Train Logistic Regression, Decision Tree, Random Forest
+
+4. **Prediction →**
+    * Input new candidate details
+    * Get AI-based hiring recommendation
+
+# 📌 Usage Examples
+* **1️⃣ Manual HR Mode**
+  ``
+  # Example: Adding an Employee
+Enter Age: 30
+Enter Accessibility (1 or 0): 1
+Enter Education Level: Bachelor's
+Enter Gender: Male
+Worked Before (1 or 0): 1
+...
+Employee added successfully!
+``
+
+
+
+
+
+
+
+
+
+
+
+
