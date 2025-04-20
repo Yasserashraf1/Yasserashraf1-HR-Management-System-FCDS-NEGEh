@@ -11,3 +11,30 @@ This **HR Management System** combines manual employee record management with **
 
 🔹 Automated EDA & Preprocessing → Clean and analyze HR data efficiently. 
 
+# Key Features
+## 1️⃣ Manual HR Mode
+**📝 Add Employees:** Store employee details (age, education, salary, skills, etc.). 
+
+* **🔍 Retrieve Employees:** Search by ID or view database records. 
+
+* **🔄 Update Records:** Modify employee information. 
+
+* **❌ Delete Employees:** Remove records from the database. 
+
+* **📊 View Database:** Preview the first N rows of the dataset.
+
+## 2️⃣ AI-Powered HR Mode
+* **🤖 Train ML Models:**
+  * Logistic Regression
+  * Decision Tree
+  * Random Forest
+
+📊 Model Evaluation:
+
+Accuracy scores
+
+Classification reports
+
+Confusion Matrix (visualized)
+
+ROC-AUC curves
