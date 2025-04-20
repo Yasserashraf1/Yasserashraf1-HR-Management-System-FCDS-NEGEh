@@ -73,16 +73,16 @@ This **HR Management System** combines manual employee record management with **
     * Get AI-based hiring recommendation
 
 # 📌 Usage Examples
-* **1️⃣ Manual HR Mode**
-  ```
-  # Example: Adding an Employee
-Enter Age: 30
-Enter Accessibility (1 or 0): 1
-Enter Education Level: Bachelor's
-Enter Gender: Male
-Worked Before (1 or 0): 1
-...
-Employee added successfully!
+## 1️⃣ Manual HR Mode**
+* **Example: Adding an Employee**
+```
+ Enter Age: 30
+ Enter Accessibility (1 or 0): 1
+ Enter Education Level: Bachelor's
+ Enter Gender: Male
+ Worked Before (1 or 0): 1
+ ...
+ Employee added successfully!
 ```
 
 
