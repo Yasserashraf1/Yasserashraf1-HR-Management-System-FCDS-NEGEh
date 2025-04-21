@@ -1,7 +1,21 @@
 # Yasserashraf1-HR-Management-System-FCDS-NEGEh
 # 📌 Overview 
-
 This **HR Management System** combines manual employee record management with **AI-driven predictive analytics** to help HR professionals streamline hiring decisions, analyze employee data, and automate repetitive tasks. 
+
+This project offers two distinct implementations of an HR Management System:
+
+1. Interactive_NEGEhr.ipynb - A terminal-based version for local execution.
+2. FCDS_NEGEhr.py - A web-based interactive UI.
+   
+Both versions provide:
+
+* **Complete employee record management (CRUD operations)**
+
+* **AI-powered hiring prediction using machine learning**
+
+* **SQLite database backend**
+
+ 
 
 🔹 Manual HR Mode → CRUD operations for employee records. 
 
@@ -71,6 +85,21 @@ This **HR Management System** combines manual employee record management with **
 4. **Prediction →**
     * Input new candidate details
     * Get AI-based hiring recommendation
+
+# Running the Systems
+1. **Command Line Interface Version**
+  ``` python Interactive_NEGEhr.ipynb```
+## **Features:**
+* **✅ Pure Python implementation**
+* **✅ Lightweight (no UI dependencies)**
+* **✅ Ideal for scripting and automation**
+
+2. Streamlit Web Interface Version
+ ```streamlit run  FCDS_NEGEhr.py```
+## Features:
+* **✅ Interactive web UI**
+* **✅ Visual data exploration**
+* **✅ User-friendly forms and buttons**
 
 # 📌 Usage Examples
 ## 1️⃣ Manual HR Mode**
