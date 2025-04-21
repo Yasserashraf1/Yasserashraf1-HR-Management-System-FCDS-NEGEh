@@ -45,19 +45,19 @@ Both versions provide:
 
 * **📊 Model Evaluation:**
 
- * Accuracy scores
+   * Accuracy scores
 
- * Classification reports
+   * Classification reports
 
- * Confusion Matrix (visualized)
+   * Confusion Matrix (visualized)
 
- * ROC-AUC curves
+   * ROC-AUC curves
 
 * **🔮 Predict Employment Suitability:**
 
- * Input candidate details (age, skills, salary, etc.)
+    * Input candidate details (age, skills, salary, etc.)
 
- * Get "Accepted" or "Rejected" prediction
+    * Get "Accepted" or "Rejected" prediction
 
 ## 3️⃣ Data Management
 * **📂 SQLite Database:** Stores all employee records
