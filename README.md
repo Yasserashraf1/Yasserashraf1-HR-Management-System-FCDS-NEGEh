@@ -15,8 +15,6 @@ Both versions provide:
 
 * **SQLite database backend**
 
- 
-
 🔹 Manual HR Mode → CRUD operations for employee records. 
 
 🔹 AI-Powered HR Mode → Machine learning models to predict employment suitability. 
@@ -66,11 +64,11 @@ Both versions provide:
 
 * **🧹 Automated Preprocessing:**
 
- * Missing value handling
+    * Missing value handling
 
- * Outlier removal (IQR method)
+    * Outlier removal (IQR method)
 
- * Categorical encoding (Label Encoding)
+    * Categorical encoding (Label Encoding)
 
 # 📊 Data Flow & AI Model Workflow
 1. **Data Loading** → Import from CSV into SQLite database
@@ -79,11 +77,11 @@ Both versions provide:
    * Encode categorical data
    * Remove outliers
 3. **Model Training →**
-    * Split data (80% train, 20% test)
-    * Train Logistic Regression, Decision Tree, Random Forest
+   * Split data (80% train, 20% test)
+   * Train Logistic Regression, Decision Tree, Random Forest
 
 4. **Prediction →**
-    * Input new candidate details
+   * Input new candidate details
     * Get AI-based hiring recommendation
 
 # Running the Systems
